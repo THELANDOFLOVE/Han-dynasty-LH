@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    <Projects>
+		<Row>
+			<Type>PROJECT_Han_Dynasty_WDChi</Type>
+			<Description>TXT_KEY_PROJECT_Han_Dynasty_WDChi</Description>
+			<Help>TXT_KEY_PROJECT_Han_Dynasty_WDChi_HELP</Help>
+			<Civilopedia>TXT_KEY_PROJECT_Han_Dynasty_WDChi_PEDIA</Civilopedia>
+			<TechPrereq>TECH_AGRICULTURE</TechPrereq>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxTeamInstances>1</MaxTeamInstances>
+			<Cost>1000</Cost>
+			<PortraitIndex>29</PortraitIndex>
+			<IconAtlas>SPBalance_ATLAS</IconAtlas>
+			<FreePromotion>PROMOTION_Han_Dynasty_WDChi</FreePromotion>
+		</Row>
+	</Projects>
+	<Project_Flavors>
+		<Row>
+			<ProjectType>PROJECT_Han_Dynasty_WDChi</ProjectType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_Han_Dynasty_WDChi</ProjectType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>999</Flavor>
+		</Row>
+	</Project_Flavors>
+</GameData>

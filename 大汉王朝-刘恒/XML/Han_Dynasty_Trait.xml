@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<!-- 太平殷富-->
+	<Traits>
+		<Row>
+			<Type>TRAIT_Han_Dynasty_TRAIT</Type>
+			<Description>TXT_KEY_TRAIT_Han_Dynasty_TRAIT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_Han_Dynasty_TRAIT_SHORT</ShortDescription>
+			<NumTradeRoutesModifier>100</NumTradeRoutesModifier>
+		</Row>
+	</Traits>
+</GameData>

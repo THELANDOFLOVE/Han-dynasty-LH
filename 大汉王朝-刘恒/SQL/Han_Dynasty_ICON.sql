@@ -1,0 +1,18 @@
+INSERT INTO IconTextureAtlases	(Atlas, IconSize, Filename, IconsPerRow, IconsPerColumn) 
+VALUES ('Han_Dynasty_ATLAS', 256,'ICON_Han_Dynasty256.dds', 8, 8),
+       ('Han_Dynasty_ATLAS', 128,'ICON_Han_Dynasty128.dds', 8, 8),
+	   ('Han_Dynasty_ATLAS', 80, 'ICON_Han_Dynasty80.dds',  8, 8),
+	   ('Han_Dynasty_ATLAS', 64, 'ICON_Han_Dynasty64.dds',  8, 8),
+	   ('Han_Dynasty_ATLAS', 48, 'ICON_Han_Dynasty48.dds',  8, 8),
+	   ('Han_Dynasty_ATLAS', 45, 'ICON_Han_Dynasty45.dds',  8, 8),
+	   ('Han_Dynasty_ATLAS', 32, 'ICON_Han_Dynasty32.dds',  8, 8),
+	   ('Han_Dynasty_ATLAS', 24, 'ICON_Han_Dynasty24.dds',  8, 8),
+	   ('Han_Dynasty_ATLAS', 22, 'ICON_Han_Dynasty22.dds',  8, 8),
+	   ('Han_Dynasty_ALPHA_ATLAS', 256,'ALPHA_ICON_Han_Dynasty256.dds', 1, 1),
+       ('Han_Dynasty_ALPHA_ATLAS', 128,'ALPHA_ICON_Han_Dynasty128.dds', 1, 1),
+	   ('Han_Dynasty_ALPHA_ATLAS', 80, 'ALPHA_ICON_Han_Dynasty80.dds',  1, 1),
+	   ('Han_Dynasty_ALPHA_ATLAS', 64, 'ALPHA_ICON_Han_Dynasty64.dds',  1, 1),
+	   ('Han_Dynasty_ALPHA_ATLAS', 48, 'ALPHA_ICON_Han_Dynasty48.dds',  1, 1),
+	   ('Han_Dynasty_ALPHA_ATLAS', 32, 'ALPHA_ICON_Han_Dynasty32.dds',  1, 1),
+	   ('Han_Dynasty_ALPHA_ATLAS', 24, 'ALPHA_ICON_Han_Dynasty24.dds',  1, 1),
+	   ('Han_Dynasty_ALPHA_ATLAS', 16, 'ALPHA_ICON_Han_Dynasty16.dds',  1, 1);

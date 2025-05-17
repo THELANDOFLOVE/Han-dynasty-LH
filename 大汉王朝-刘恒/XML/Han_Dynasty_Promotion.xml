@@ -1,0 +1,30 @@
+<GameData>
+    <UnitPromotions>
+        <!-- 北击匈奴 -->
+        <Row>
+			<Type>PROMOTION_Han_Dynasty_WDChi</Type>
+			<Description>TXT_KEY_PROMOTION_Han_Dynasty_WDChi</Description>
+			<Help>TXT_KEY_PROMOTION_Han_Dynasty_WDChi_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PortraitIndex>8</PortraitIndex>
+			<IconAtlas>Han_Dynasty_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_Han_Dynasty_WDChi</PediaEntry>
+			<CanMoveAfterAttacking>true</CanMoveAfterAttacking>
+			<CannotBeChosen>true</CannotBeChosen>
+			<MovesChange>1</MovesChange>
+			<ExtraAttacks>1</ExtraAttacks>
+			<CombatPercent>100</CombatPercent>
+			<MaxHitPointsChange>100</MaxHitPointsChange>
+			<AttackInflictDamageChange>5</AttackInflictDamageChange>
+			<SiegeInflictDamageChange>5</SiegeInflictDamageChange>
+			<ChangeDamageValue>-10</ChangeDamageValue>
+            <SiegeInflictDamageChangeMaxHPPercent>5</SiegeInflictDamageChangeMaxHPPercent>
+			<AttackInflictDamageChangeMaxHPPercent>5</AttackInflictDamageChangeMaxHPPercent>
+            <NoResourcePunishment>true</NoResourcePunishment>
+            <MilitaryMightMod>300</MilitaryMightMod>
+            <IgnoreTerrainCost>true</IgnoreTerrainCost>
+            <ExperiencePercent>100</ExperiencePercent>
+		</Row>
+    </UnitPromotions>
+</GameData>

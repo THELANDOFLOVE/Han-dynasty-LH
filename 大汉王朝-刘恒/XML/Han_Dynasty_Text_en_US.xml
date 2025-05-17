@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_LEADER_LIUHENG_FIRSTGREETING">
+			<Text>欢迎！我是刘恒，大汉王朝的皇帝。普天之下,莫非王土。率土之滨,莫非王臣。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LIUHENG_DEFEATED">
+			<Text>即使面临失败，大汉也终将永存。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_Han_Dynasty_DESC">
+			<Text>大汉王朝</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_Han_Dynasty_SHORT_DESC">
+			<Text>大汉王朝</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_Han_Dynasty_ADJECTIVE">
+			<Text>大汉王朝的</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_LIUHENG">
+			<Text>刘恒</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_LIUHENG_NAME">
+			<Text>刘恒</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_MAP_Han_Dynasty_TEXT">
+			<Text>汉文帝刘恒，汉高祖刘邦之孙，汉朝的明君之一。自幼聪慧宽厚，兼容并包，善于用人。他即位后，秉持“宽政”理念，减轻徭役，减免赋税，轻徭薄赋，惠及百姓，使民心归顺，社会安宁。文帝推行“宾客礼遇”政策，崇尚节俭民生，恢复经济，振兴文化，推动汉朝繁荣昌盛。在治理国家的方略上，他注重德治，倡导廉政，以德感化百官，赢得百姓爱戴。同时，文帝明察秋毫，善于用贤，得张良、萧何等贤才辅佐，有效稳定朝局。在对外方面，他注重和亲盟誓，稳固边疆，巩固汉朝的统治基础。刘恒以其宽厚仁德、善政惠民，被史家尊为“文景之治”的奠基者。他的统治，为汉朝开启了一个以民为本、安定繁荣的黄金时代，千秋万代传颂其恩泽。
+			[NEWLINE] 我们伟大的皇帝陛下刘恒啊，您的雄才大略如同光芒万丈的太阳，照亮了大汉的每一寸土地。在您的引领下，大汉的辉煌能否千秋万代，永耀史册？
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_LIUHENG_SUBTITLE">
+			<Text>汉文帝</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_LIUHENG_TITLES_1">
+			<Text>孝文皇帝</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_LIUHENG_HEADING_1">
+			<Text>领袖介绍</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_LIUHENG_TEXT_1">
+			<Text>汉文帝刘恒，汉高祖刘邦之孙，汉朝的伟大明君之一。少年德行端庄，宽厚仁爱，善待百姓，注重德治，减轻赋税与徭役，推行轻徭薄赋政策，弘扬节俭之风。即位后，礼贤下士，任用贤能，以宽政安民，使社会逐渐安定，经济繁荣，开启“文景之治”，被后世尊为“孝文皇帝”。在政治上，他整顿吏治，尚德重教，健全法制，提倡廉洁，深得百姓爱戴。在对外方面，他重视巩固边疆，修筑城防，维护国家安宁。刘恒以其宽宁仁厚、善治惠民，为汉朝奠定坚实基础，开创了盛世之先声，载入史册，千秋传颂。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADER_LIUHENG_LIVED">
+			<Text>公元前203年出生，公元前157年</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_Han_Dynasty_TRAIT">
+			<Text>[ICON_BULLET]城市[ICON_GOLD]金钱收入-50%，建筑、改良和专家+1[ICON_GOLD]金钱
+			      [NEWLINE][ICON_BULLET]商路上限翻倍，建造提供商路的建筑时增加100%产能。
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_Han_Dynasty_TRAIT_SHORT">
+			<Text>太平殷富</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_Han_Dynasty_WDChi">
+			<Text>[COLOR_YIELD_GOLD]汉文帝敕[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_Han_Dynasty_WDChi_HELP">
+			<Text>只有大汉王朝刘恒文明才能建造，完成以后，全国军事单位获得晋升[COLOR_YIELD_GOLD]北击匈奴[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_Han_Dynasty_WDChi_PEDIA">
+			<Text>汉文帝敕，命汉军厉兵秣马，蓄势北击匈奴，誓扫边患，安定天下。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_Han_Dynasty_WDChi">
+			<Text>[COLOR_YIELD_GOLD]北击匈奴[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_Han_Dynasty_WDChi_HELP">
+			<Text>+100点血量,+100%[ICON_STRENGTH]战斗力，+1额外移动力，+1额外攻击次数，无资源不足惩罚，攻击后可移动，受到伤害固定-10，攻击单位和城市时增加5固定伤害和5%最大生命固伤，无视地形移动，获取晋升所需经验的速率加快100%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TaiXue">
+			<Text>太学</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TaiXue_HELP">
+			<Text>太学是国内的最高学府，替代国立研究院，额外提高本城科学家1[ICON_RESEARCH]科研产出。
+				[NEWLINE][ICON_BULLET]本城100%[ICON_CULTURE]文化产出转化为[ICON_RESEARCH]科研产出。
+				[NEWLINE][ICON_BULLET]必须在文明的所有[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]中建造[ICON_RESEARCH]学院。[ICON_PRODUCTION]建造花费随[ICON_CITYBANNER_CITY_TOWN][COLOR_SELECTED_TEXT]城市[ENDCOLOR]数量增加。
+				[NEWLINE][ICON_BULLET]学而优则仕，希望学子们能有好的表现，将来能给国家建言献策。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TaiXue_PEDIA">
+			<Text>西汉太学的建立，起源于汉景帝时期（公元前156年左右），为了巩固儒学正统，推行以儒学为国家官学的教育体系。汉武帝即位后（公元前141年），大力发展太学，设立全国性最高国学机构，集中培养治国人才，强化儒学在政权中的指导地位。太学成为汉代儒学教育和官员选拔的重要基地，对巩固汉朝的政治思想和文化传统具有深远影响。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SheJiTan">
+			<Text>社稷坛</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SheJiTan_HELP">
+			<Text>社稷坛是国内的祭祀所用，替代灯塔，无需建造在沿海城市。
+				[NEWLINE][ICON_BULLET]本城增加[ICON_FOOD]食物的资源+1[ICON_CULTURE]文化产出。
+				[NEWLINE][ICON_BULLET]本城出发的商路为城市+1[ICON_FOOD]食物、[ICON_CULTURE]文化、[ICON_PEACE]信仰、[ICON_PRODUCTION]产能、[ICON_GOLD]金钱、[ICON_SCIENCE]科研产出。
+				[NEWLINE][ICON_BULLET]祭祀天地，以期风调雨顺，国泰民安。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SheJiTan_TEXT">
+			<Text>西汉社稷坛建立于汉武帝时期（公元前110年左右），是祭祀天地的特殊场所。汉武帝尊崇儒学，强调天命与皇权神授，为体现皇帝对天地的崇敬与天命的认同，兴建了社稷坛，用于举行隆重的祭天祭地大典。社稷坛不仅是政治祭祀的重要场所，也象征着皇权与天命的结合，强化皇帝的神圣地位，加强中央集权，彰显国家对天地的敬畏与统治正当性。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_QuanNongTing">
+			<Text>劝农亭</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_QuanNongTing_HELP">
+			<Text>劝农亭是国内提倡农业生产所用，替代粮仓，。
+				[NEWLINE][ICON_BULLET]本城种植园、农场、捕捞船、渔船+1[ICON_FOOD]食物产出。
+				[NEWLINE][ICON_BULLET]本城工人完成改良时每个劝农亭将根据时代和游戏速度提供少量信仰文化产出。
+				[NEWLINE][ICON_BULLET]劝诫农桑，让人民都能吃饱饭穿上衣。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_QuanNongTing_TEXT">
+			<Text>西汉时期，农业是国家经济的基础，为促进农业生产与恢复社会秩序，汉文帝和汉景帝时期推行奖农政策，设立“劝农亭”作为宣传和推广农业技术的地方机构。劝农亭的建立旨在劝导百姓耕作，推广耕作技巧，鼓励开垦荒地，减少赋税负担，稳定粮食供应，促进农业发展，从而巩固国家的经济基础和社会稳定。这一措施反映出汉代重视农业、强调以农为本的治国理念。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_YuShiTai">
+			<Text>御史台</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_YuShiTai_HELP">
+			<Text>御史台是国内监督百官腐败所用，替代法院，允许建立在自建城市。
+				[NEWLINE][ICON_BULLET]消除占领人口导致的不满，全国腐败点数降低50，没有维护费。
+				[NEWLINE][ICON_BULLET]监察百官，杜绝吏治腐败。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_YuShiTai_PEDIA">
+			<Text>西汉时期，御史台作为中央监察机构，设立于汉武帝时期（约公元前138年左右），旨在监督官员、监察朝政，防止腐败和乱政。御史台的官员被称为“御史”，负责弹劾失职官员，监察地方和中央官员的行为，确保皇权和法律的执行。它的设立强化了君主集权，体现对官员的约束与监督，是维护朝廷清廉和政令畅通的重要机构，对汉代政府行政体系具有重要影响。</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_YuShiTai_1">
+			<Text>御史台建筑</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_YuShiTai_1_HELP">
+			<Text>御史台建筑减少50腐败分数</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_YuShiTai_1_TEXT">
+			<Text>御史台，监察百官</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_Han_Dynasty_SHORT">
+			<Text>太平殷富</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_Han_Dynasty">
+			<Text>减少50%城市收入</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_Han_Dynasty_1">
+			<Text>太平殷富</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_Han_Dynasty_1_HELP">
+			<Text>减少50%城市收入</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_Han_Dynasty_1_TEXT">
+			<Text>太平殷富</Text>
+		</Row>
+        <Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_00">
+			<Text>[COLOR_RED]长安[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_01">
+			<Text>沛郡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_02">
+			<Text>弘农</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_03">
+			<Text>栎阳</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_04">
+			<Text>河南郡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_05">
+			<Text>河东郡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_06">
+			<Text>郿县</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_07">
+			<Text>汉中郡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_08">
+			<Text>蜀郡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_09">
+			<Text>巴郡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_10">
+			<Text>天水</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_11">
+			<Text>临洮</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_12">
+			<Text>上党</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_13">
+			<Text>上郡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_14">
+			<Text>五原</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_15">
+			<Text>朔方</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_16">
+			<Text>马邑</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_17">
+			<Text>信都</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_18">
+			<Text>常山</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_19">
+			<Text>代郡</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_20">
+			<Text>真定</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_21">
+			<Text>右北平</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_22">
+			<Text>济南</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_23">
+			<Text>张掖</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_24">
+			<Text>酒泉</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_25">
+			<Text>玉门</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_26">
+			<Text>敦煌</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_27">
+			<Text>乌垒城</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_28">
+			<Text>定陶</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_29">
+			<Text>彭城</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_30">
+			<Text>琅琊</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_31">
+			<Text>汝南</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_32">
+			<Text>广陵</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_33">
+			<Text>九江</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_34">
+			<Text>吴县</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_35">
+			<Text>会稽</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_36">
+			<Text>云梦泽</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_37">
+			<Text>桂阳</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_38">
+			<Text>曲江</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_Han_Dynasty_39">
+			<Text>苍梧</Text>
+		</Row>
+
+        <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_1">
+			<Text>黎姜</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_2">
+			<Text>芈月</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_3">
+			<Text>华阳</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_4">
+			<Text>貂蝉</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_5">
+			<Text>西施</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_6">
+			<Text>王昭君</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_7">
+			<Text>施妹喜</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_8">
+			<Text>甄宓</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_9">
+			<Text>墩儿</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_10">
+			<Text>段子萱</Text>
+		</Row> 
+		<Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_11">
+			<Text>卞玉京</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_12">
+			<Text>杜十娘</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_13">
+			<Text>刘秋痕</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_14">
+			<Text>杨玉环</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_15">
+			<Text>赵合德</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_16">
+			<Text>王语嫣</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_17">
+			<Text>杜采秋</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_18">
+			<Text>于仙姬</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_19">
+			<Text>李师师</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_20">
+			<Text>列克星敦</Text>
+		</Row> 
+		<Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_21">
+			<Text>薄姬</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_22">
+			<Text>张春华</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_23">
+			<Text>湘夫人</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_24">
+			<Text>张丽华</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_25">
+			<Text>苏妲己</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_26">
+			<Text>上官婉儿</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_27">
+			<Text>杨欣怡</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_28">
+			<Text>陆红雪</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_29">
+			<Text>杜惊梅</Text>
+		</Row>
+         <Row Tag="TXT_KEY_SPY_NAME_Han_Dynasty_30">
+			<Text>楼雨秋</Text>
+		</Row> 
+    </Language_en_US>
+
+</GameData>

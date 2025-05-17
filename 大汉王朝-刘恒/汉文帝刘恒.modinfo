@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4d412625-fdac-4d93-af28-a70a928d9c55" version="1"> 
+
+    <Properties>
+        <Name>汉文帝刘恒</Name>
+        <Stability>Alpha</Stability>
+        <Teaser>汉文帝刘恒领导的汉朝文明</Teaser>
+        <Description>汉文帝刘恒加强中央集权，推行德治，重视经济文化发展，促进社会稳定与繁荣，为汉朝奠定基础。</Description>
+        <Authors>轻语</Authors>
+        <SpecialThanks>杜炎宇</SpecialThanks>
+        <HideSetupGame>0</HideSetupGame>
+        <AffectsSavedGames>1</AffectsSavedGames>
+        <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+        <SupportsSinglePlayer>1</SupportsSinglePlayer>
+        <SupportsMultiplayer>1</SupportsMultiplayer>
+        <SupportsHotSeat>1</SupportsHotSeat>
+        <SupportsMac>1</SupportsMac>
+        <ReloadAudioSystem>0</ReloadAudioSystem>
+        <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+        <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+        <ReloadUnitSystem>0</ReloadUnitSystem>
+    </Properties>
+    <Dependencies>
+        <Mod id="a2969a0a-e4da-41cc-9e0b-19b29aa971d8" minversion="47" maxversion="999" title="(1) CIV5MPDLL" />
+        <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="10" maxversion="999" title="Super Power - Remaking of World Order" />
+    </Dependencies>
+    <References>
+        <Mod id="f9b9c8aa-b6d1-4188-9239-c1de2207ab7c" minversion="10" maxversion="999" title="Super Power - Remaking of World Order" />
+        <Mod id="41450919-c52c-406f-8752-5ea34be32b2d" minversion="0" maxversion="999" title="世界强权" />
+    </References>
+    <Files>
+        <File md5="6f67a3500c3adec1a0e2182eb4d1aa24" import="0">SQL\Han_Trait.sql</File>
+        <File md5="08d9ca4d56c20ca99373381ad4386dcc" import="1">ART/TaiXue.dds</File>
+        <File md5="254405ed697cd6a7b8a3d83901b3944e" import="0">XML/Han_Dynasty_Civilizations.xml</File>
+        <File md5="9fb09f70afabfe15875a550093e2d28b" import="0">XML/Han_Dynasty_Leaders.xml</File>
+        <File md5="3858057367d9f2534a97950f52e4d3f8" import="0">XML/Han_Dynasty_Overrides.xml</File>
+        <File md5="866dfd14f57aee4fa153065a75ce442b" import="0">XML/Han_Dynasty_Buildings.xml</File>
+        <File md5="5aa2bf198d852ff7e8aa1b8832f90fa0" import="0">XML/Han_Dynasty_Text_en_US.xml</File>
+        <File md5="cd487b5bb2d5792730d61ffcea081a8f" import="0">XML/Han_Dynasty_Trait.xml</File>
+        <File md5="c79e555603b2f5bbc186413f70b84214" import="1">LUA/Han_Dynasty.lua</File>
+        <File md5="ee06d9f4795788e59dbc540259dfbb9a" import="0">XML/Han_Dynasty_Promotion.xml</File> 
+        <File md5="fb5eb61b26a7ba24915cedeb095eccb1" import="1">XML/Scene_Han_Dynasty.xml</File>
+        <File md5="4146b1c818e6beb7eeed2ff880fc464f" import="1">ART/LIUHENG_SCENE.dds</File>
+        <File md5="4a17add7356b618263a7d93fc8b4f1a8" import="1">ART/MAP_Han_Dynasty.dds</File>
+        <File md5="68622ceac108f6c10a2bc0e0fa35bce5" import="1">ART/ALPHA_ICON_Han_Dynasty16.dds</File>
+        <File md5="1fe120345c0dfe4b3da9a88aabdae5c1" import="1">ART/ALPHA_ICON_Han_Dynasty24.dds</File>
+        <File md5="26d0c588f637748054b9945046fa4ab6" import="1">ART/ALPHA_ICON_Han_Dynasty32.dds</File>
+        <File md5="21f13a644d36ce6e54a7f97a48f1d3fb" import="1">ART/ALPHA_ICON_Han_Dynasty48.dds</File>
+        <File md5="ac9aa9793c38be5b2778aaa22b0f958f" import="1">ART/ALPHA_ICON_Han_Dynasty64.dds</File>
+        <File md5="f21baa6dfa3a4bd93dd03c730541f62b" import="1">ART/ALPHA_ICON_Han_Dynasty80.dds</File>
+        <File md5="a561a220b6e3361ddb6f716933b6a09a" import="1">ART/ALPHA_ICON_Han_Dynasty128.dds</File>
+        <File md5="d34312034319154f1095511758ab7af0" import="1">ART/ALPHA_ICON_Han_Dynasty256.dds</File>
+        <File md5="106b25086d346193ff459a5588ac2491" import="1">ART/DOM_LIUHENG.dds</File>
+        <File md5="4652019f3735ad7e76bdb7b6c2956596" import="1">ART/ICON_Han_Dynasty45.dds</File>
+        <File md5="8c0da8565a30433c6b9531318d70edbd" import="1">ART/ICON_Han_Dynasty48.dds</File>
+        <File md5="1c6f360f826f880fe3737d74965d2015" import="1">ART/ICON_Han_Dynasty64.dds</File>
+        <File md5="3d167baf326364e4aa3e136cac050152" import="1">ART/ICON_Han_Dynasty22.dds</File>
+        <File md5="54a60968104abed56b5f272abb756ab7" import="1">ART/ICON_Han_Dynasty24.dds</File>
+        <File md5="ae90a1dcf5f1e8ae447170960433b6e8" import="1">ART/ICON_Han_Dynasty32.dds</File>
+        <File md5="78d6f7243e6b654df8c6821dfba99ffc" import="1">ART/ICON_Han_Dynasty80.dds</File>
+        <File md5="cdb131b95b1f8fbfa9dd3e05988d6c2b" import="1">ART/ICON_Han_Dynasty128.dds</File>
+        <File md5="2a2ee1911c91b5f888d541642d4e84be" import="1">ART/ICON_Han_Dynasty256.dds</File>
+        <File md5="0115e8b9f598605ad7da66ce12c2b80a" import="1">SQL/Han_Dynasty_ICON.sql</File>
+        <File md5="5025088c8e5cbb81ab2f31a8b063161d" import="1">ART\MUSIC\LIUHENG_PEACE.mp3</File>
+        <File md5="69d332571f4c1138fb5e3024cce43152" import="1">ART\MUSIC\LIUHENG_WAR.mp3</File>
+        <File md5="a29063bf212728ba6496bb46b196c33b" import="1">SQL\Han_Dynasty_MUSIC.sql</File>
+        <File md5="46a6675958930b197744e6547da1a221" import="1">ART\MUSIC\Han_Dynasty.mp3</File>
+        <File md5="c87e1e01dcb4f767fdbf237088876107" import="1">XML\Han_Dynasty_Music.xml</File>
+        <File md5="e971ecc5e75c52e095543d4f1d9962eb" import="0">SQL/Han_Dynasty.sql</File>
+        <File md5="4eec59894b2f1e1827aed58ff281a382" import="0">XML\Han_Dynasty_Policy.xml</File>
+        <File md5="48228ad7af3d00622758bea86fc17982" import="0">XML\Han_Dynasty_Units.xml</File>
+        <File md5="3f76da7d88e1a5463f63a8f5d04f507c" import="1">DLL/CvGameCore_Expansion2.dll</File>
+    </Files>
+
+    <Actions>
+        <OnGetDLLPath>
+            <SetDllPath>DLL/CvGameCore_Expansion2.dll</SetDllPath>
+        </OnGetDLLPath>
+        <OnModActivated>
+            <UpdateDatabase>SQL\Han_Trait.sql</UpdateDatabase>
+            <UpdateDatabase>XML\Han_Dynasty_Policy.xml</UpdateDatabase>
+            <UpdateDatabase>XML\Han_Dynasty_Units.xml</UpdateDatabase>
+            <UpdateDatabase>SQL/Han_Dynasty.sql</UpdateDatabase>
+            <UpdateDatabase>XML\Han_Dynasty_Music.xml</UpdateDatabase>
+            <UpdateDatabase>SQL\Han_Dynasty_MUSIC.sql</UpdateDatabase>
+            <UpdateDatabase>XML/Han_Dynasty_Civilizations.xml</UpdateDatabase>
+            <UpdateDatabase>XML/Han_Dynasty_Leaders.xml</UpdateDatabase>
+            <UpdateDatabase>XML/Han_Dynasty_Buildings.xml</UpdateDatabase>
+            <UpdateDatabase>XML/Han_Dynasty_Overrides.xml</UpdateDatabase>
+            <UpdateDatabase>XML/Han_Dynasty_Text_en_US.xml</UpdateDatabase>
+            <UpdateDatabase>XML/Han_Dynasty_Trait.xml</UpdateDatabase>
+            <UpdateDatabase>XML/Han_Dynasty_Promotion.xml</UpdateDatabase>
+            <UpdateDatabase>XML/Scene_Han_Dynasty.xml</UpdateDatabase>
+            <UpdateDatabase>SQL/Han_Dynasty_ICON.sql</UpdateDatabase>
+        </OnModActivated>
+    </Actions>
+
+    <EntryPoints>
+        <EntryPoint type="InGameUIAddin" file="LUA/Han_Dynasty.lua">
+            <Name>Han_Dynasty</Name>
+            <Description>Han_Dynasty</Description>
+        </EntryPoint>
+    </EntryPoints>
+</Mod>

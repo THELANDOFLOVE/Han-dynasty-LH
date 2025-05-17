@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+     <Policies>
+		<Row>
+			<Type>POLICY_Han_Dynasty</Type>
+			<Description>TXT_KEY_POLICY_Han_Dynasty</Description>
+			<Help>TXT_KEY_POLICY_Han_Dynasty_SHORT</Help>
+			<Dummy>1</Dummy>
+		</Row>
+	</Policies>
+	<Project_PolicyNeeded> 
+	    <Row>
+			<PolicyType>POLICY_Han_Dynasty</PolicyType>
+			<ProjectType>PROJECT_Han_Dynasty_WDChi</ProjectType>
+		</Row>
+	</Project_PolicyNeeded>
+</GameData>

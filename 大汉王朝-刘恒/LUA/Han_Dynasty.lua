@@ -20,16 +20,16 @@ function GiveHanDynastyPolicy(playerID)
 end
 GameEvents.PlayerCityFounded.Add(GiveHanDynastyPolicy)
 local YIELD_CONFIG = {
-    [GameInfoTypes.ERA_ANCIENT] = { faith = 30, culture = 30 },
-    [GameInfoTypes.ERA_CLASSICAL] = { faith = 60, culture = 60 },
-    [GameInfoTypes.ERA_MEDIEVAL] = { faith = 90, culture = 90 },
-    [GameInfoTypes.ERA_RENAISSANCE] = { faith = 160, culture = 160 },
-    [GameInfoTypes.ERA_INDUSTRIAL] = { faith = 320, culture = 320 },
-    [GameInfoTypes.ERA_MODERN] = { faith = 640, culture = 640 },
-    [GameInfoTypes.ERA_WORLDWAR] = { faith = 1280, culture = 1280 },
-    [GameInfoTypes.ERA_POSTMODERN] = { faith = 2000, culture = 2000 },
-    [GameInfoTypes.ERA_INFORMATION] = { faith = 2500, culture = 2500 },
-    [GameInfoTypes.ERA_FUTURE] = { faith = 3000, culture = 3000 }
+    [GameInfoTypes.ERA_ANCIENT] = { faith = 3, culture = 3 },
+    [GameInfoTypes.ERA_CLASSICAL] = { faith = 6, culture = 6 },
+    [GameInfoTypes.ERA_MEDIEVAL] = { faith = 9, culture = 9 },
+    [GameInfoTypes.ERA_RENAISSANCE] = { faith = 16, culture = 16 },
+    [GameInfoTypes.ERA_INDUSTRIAL] = { faith = 32, culture = 32 },
+    [GameInfoTypes.ERA_MODERN] = { faith = 64, culture = 64 },
+    [GameInfoTypes.ERA_WORLDWAR] = { faith = 128, culture = 128 },
+    [GameInfoTypes.ERA_POSTMODERN] = { faith = 200, culture = 200 },
+    [GameInfoTypes.ERA_INFORMATION] = { faith = 250, culture = 250 },
+    [GameInfoTypes.ERA_FUTURE] = { faith = 300, culture = 300 }
 }
 function GetGameSpeedModifier()
     local gameSpeedType = Game.GetGameSpeedType()
@@ -52,7 +52,7 @@ function OnHanBuildingCompleted(playerID, buildingID, cityID)
         if player:GetCivilizationType() == GameInfoTypes.CIVILIZATION_Han_Dynasty and
         city:IsHasBuilding(GameInfoTypes.BUILDING_QuanNongTing) then
             local era = player:GetCurrentEra()
-            local baseYields = YIELD_CONFIG[era] or { faith = 100, culture = 100 }
+            local baseYields = YIELD_CONFIG[era] or { faith = 10, culture = 10 }
             local speedModifier = GetGameSpeedModifier()
             local faithYield = math.floor(baseYields.faith * speedModifier)
             local cultureYield = math.floor(baseYields.culture * speedModifier)

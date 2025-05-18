@@ -46,27 +46,29 @@ function GetGameSpeedModifier()
         return 1.0 
     end
 end
-function OnHanBuildingCompleted(playerID, buildingID, cityID)
+function OnHanBuildingCompleted(playerID, buildingID, iX, iY)
     local player = Players[playerID]
-    for city in player:Cities() do  
-        if player:GetCivilizationType() == GameInfoTypes.CIVILIZATION_Han_Dynasty and
-        city:IsHasBuilding(GameInfoTypes.BUILDING_QuanNongTing) then
-            local era = player:GetCurrentEra()
-            local baseYields = YIELD_CONFIG[era] or { faith = 10, culture = 10 }
-            local speedModifier = GetGameSpeedModifier()
-            local faithYield = math.floor(baseYields.faith * speedModifier)
-            local cultureYield = math.floor(baseYields.culture * speedModifier)
-            player:ChangeFaith(faithYield)
-            player:ChangeJONSCulture(cultureYield) 
-            local cityName = city:GetName()
-            player:AddNotification(
-                NotificationTypes.NOTIFICATION_GENERIC,
-                "城市 [" .. cityName .. "] 获得了 " .. faithYield .. " 点[ICON_PEACE]信仰和 " .. cultureYield .. " 点[ICON_CULTURE]文化",
-                "上天赐予我大汉文明的祝福",
-                city:GetX(),
-                city:GetY()
-            )
-        end
+    local plot = Map.GetPlot(iX, iY)
+    local city = plot and plot:GetWorkingCity()
+
+    if city and player:GetCivilizationType() == GameInfoTypes.CIVILIZATION_Han_Dynasty
+       and city:IsHasBuilding(GameInfoTypes.BUILDING_QuanNongTing) then
+
+        local era = player:GetCurrentEra()
+        local baseYields = YIELD_CONFIG[era] or { faith = 10, culture = 10 }
+        local speedModifier = GetGameSpeedModifier()
+        local faithYield = math.floor(baseYields.faith * speedModifier)
+        local cultureYield = math.floor(baseYields.culture * speedModifier)
+        player:ChangeFaith(faithYield)
+        player:ChangeJONSCulture(cultureYield)
+        local cityName = city:GetName()
+        player:AddNotification(
+            NotificationTypes.NOTIFICATION_GENERIC,
+            "城市 [" .. cityName .. "] 获得了 " .. faithYield .. " 点信仰和 " .. cultureYield .. " 点文化",
+            "上天赐予我大汉文明的祝福",
+            city:GetX(),
+            city:GetY()
+        )
     end
 end
 GameEvents.PlayerBuilt.Add(OnHanBuildingCompleted)
